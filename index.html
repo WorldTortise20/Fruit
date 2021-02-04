@@ -1,0 +1,43 @@
+<!DOCTYPE html><html lang="en">
+
+  <head>
+    <script src="p5.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="matter.js"></script>
+    <script src="p5.play.js"></script>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.5/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.5/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyA2mnPAPSbSu828TUdFHsN4jMS4Y3WSiFw",
+    authDomain: "fruit-catcher-f5adc.firebaseapp.com",
+    databaseURL: "https://fruit-catcher-f5adc-default-rtdb.firebaseio.com",
+    projectId: "fruit-catcher-f5adc",
+    storageBucket: "fruit-catcher-f5adc.appspot.com",
+    messagingSenderId: "937836604283",
+    appId: "1:937836604283:web:d0b05b0be12537e3bb6bde"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+    <script src="Player.js"></script>
+    <script src="Form.js"></script>
+    <script src="Game.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+
+</html>
